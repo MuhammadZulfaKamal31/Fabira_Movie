@@ -85,7 +85,7 @@ const Login = () => {
               <Link className="text-gray-600"> forgot password?</Link>
             </div>
           </div>
-          <div className="flex mt-5 justify-center items-center py-2 px-2 bg-red-600 rounded-2xl rounded-md hover:opacity-80 transition-all ease-in-out duration-75">
+          <div className="flex mt-5 justify-center items-center py-2 px-2 bg-red-600 rounded-md hover:opacity-80 transition-all ease-in-out duration-75">
             <button
               type="submit"
               className="text-white md:text-xl sm:text-lg max-[639px]:text-lg"
@@ -94,7 +94,7 @@ const Login = () => {
             </button>
           </div>
         </form>
-        <div className="flex mt-5 justify-center items-center py-2 px-2 bg-blue-400 rounded-2xl rounded-md hover:opacity-80 transition-all ease-in-out duration-75">
+        <div className="flex mt-5 justify-center items-center py-2 px-2 bg-blue-400  rounded-md hover:opacity-80 transition-all ease-in-out duration-75">
           <Link to="/register" type="button" className="text-white md:text-xl sm:text-lg max-[639px]:text-lg">
             REGISTER
           </Link>
