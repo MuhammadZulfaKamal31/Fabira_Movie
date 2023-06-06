@@ -4,7 +4,7 @@ import { useQuery } from "react-query";
 
 
 const getComment = async ({ mediaType, mediaId }) => {
-    const { data } = await axios.get(`https://finalprojectbackend-production-331f.up.railway.app/${mediaType}/${mediaId}`)
+    const { data } = await axios.get(`https://finalprojectbackend-production-331f.up.railway.app/comment${mediaType}/${mediaId}`)
     return data
 }
 
